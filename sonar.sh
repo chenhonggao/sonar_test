@@ -7,4 +7,5 @@ mvn clean verify sonar:sonar -Pcoverage \
     -Dsonar.host.url=https://sonarcloud.io \
     -Dsonar.organization=chenhonggao \
     -Dsonar.projectKey=chenhonggao_sonar_test \
-    -Dsonar.branch.name=sonar
+    -Dsonar.branch.name=sonar \
+    -Dsonar.exclusions=pom.xml,src/main/java/cn/simple/WorldUtils.java

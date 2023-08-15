@@ -12,4 +12,9 @@ public class HelloUtilsTest {
     public void plus() {
         Assert.isTrue(HelloUtils.plus(1,2) == 3);
     }
+
+    @Test
+    public void minus() {
+        Assert.isTrue(HelloUtils.minus(1,2) == -1);
+    }
 }
