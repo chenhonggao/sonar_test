@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class AUtilsTest {
     @Test
-    void plus() {
+    public void plus() {
         AUtils.plus(1,2);
     }
 }

@@ -6,7 +6,7 @@ import org.junit.Test;
 public class BUtilsTest {
 
     @Test
-    void minus() {
+    public void minus() {
         BUtils.minus(2,1);
     }
 }

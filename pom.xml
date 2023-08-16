@@ -15,6 +15,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>A</module>
+        <module>B</module>
     </modules>
 
 
