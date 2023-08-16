@@ -2,15 +2,17 @@ package cn.more;
 
 
 import org.junit.Test;
+import org.springframework.util.Assert;
 
-public class AUtilsTest {
+public class CUtilsTest {
+
     @Test
     public void plus() {
-        AUtils.plus(1,2);
+        CUtils.plus(1,2);
     }
 
     @Test
     public void minus() {
-        AUtils.minus(1,2);
+        CUtils.minus(1,2);
     }
 }
