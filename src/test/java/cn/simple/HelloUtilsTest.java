@@ -10,7 +10,7 @@ public class HelloUtilsTest {
 
     @Test
     public void plus() {
-        Assert.isTrue(HelloUtils.plus(1,2) == 3);
+        Assert.isTrue(HelloUtils.plus(1,2) == 333);
     }
 
     @Test
